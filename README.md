@@ -35,7 +35,7 @@
 
   3-1) Region Proposal (Selective Search)
     > Object Detection을 위해 가능한 후보 영역을 알아낼 수 있는 방법
-<img src="https://github.com/falling90/RCNN/blob/main/Reference/Image/3.png" width="1000px" height="300px"></img><br/>  
+<img src="https://github.com/falling90/RCNN/blob/main/Reference/Image/3.png" width="1000px" height="200px"></img><br/>  
 <img src="https://github.com/falling90/RCNN/blob/main/Reference/Image/4.png" width="1000px" height="300px"></img><br/>  
 
     (1) 영역 생성 : Image의 초기 세그먼트를 정하여, 수많은 Region 영역 생성
@@ -70,7 +70,7 @@
          Ground-truth box와 IoU(Intersection over Union)가 가장 높은 Bounding box를 선택하여
          Bounding box regression을 적용
 
-<img src="https://github.com/falling90/RCNN/blob/main/Reference/Image/5.png" width="1000px" height="300px"></img><br/>  
+<img src="https://github.com/falling90/RCNN/blob/main/Reference/Image/5.png" width="1000px" height="400px"></img><br/>  
 
  ## 4. 문제점  
     -. Selective Search 속도 자체가 느림.
