@@ -17,7 +17,7 @@
 
 
   2-2) Process  
-<img src="https://github.com/falling90/RCNN/blob/main/Reference/Image/2.png" width="1000px" height="400px"></img><br/>  
+<img src="https://github.com/falling90/RCNN/blob/main/Reference/Image/2.png" width="1000px" height="450px"></img><br/>  
 
     (1) Input Image에 Selective Search 알고리즘을 적용하여 Bounding box (region proposal) 2,000개 추출
     (2) 추출된 Bounding box를 Resize (Crop or Warp) 후 CNN에 입력
@@ -33,10 +33,10 @@
     -. Data : Image  
     -. Label : Bounding Box  
 
-  3-1) Region Proposal (Selective Search)
+  3-1) Region Proposal (Selective Search)  
     > Object Detection을 위해 가능한 후보 영역을 알아낼 수 있는 방법
 <img src="https://github.com/falling90/RCNN/blob/main/Reference/Image/3.png" width="1000px" height="200px"></img><br/>  
-<img src="https://github.com/falling90/RCNN/blob/main/Reference/Image/4.png" width="1000px" height="300px"></img><br/>  
+<img src="https://github.com/falling90/RCNN/blob/main/Reference/Image/4.png" width="1000px" height="350px"></img><br/>  
 
     (1) 영역 생성 : Image의 초기 세그먼트를 정하여, 수많은 Region 영역 생성
     (2) 주변과 결합 : Greedy 알고리즘을 이용하여 각 Region을 기준으로 주변의 유사한 영역을 결함
@@ -59,10 +59,10 @@
       -. ILSVRC 2012 Data-set 으로 학습된 Pre-trained CNN 모델 사용
       -. Object detection을 적용할 Data-set으로 Fine-tunning
     
-  3-3) SVM Classifier
+  3-3) SVM Classifier  
     > CNN으로 추출한 4,096 차원의 Feature 벡터를 SVM으로 분류
     
-  3-4) Bounding Box Regression
+  3-4) Bounding Box Regression  
     > SVM을 통해 분류된 Bounding box를 Ground-truth box와 비슷하게 조정해주는 역할
     
     ※ 적용 대상
