@@ -5,8 +5,17 @@
    
  ## 2. 구조 및 절차
   1) 구조  
-<img src="https://github.com/falling90/RCNN/blob/main/Reference/Image/1.PNG" width="1000px" height="300px"></img><br/>  
+<img src="https://github.com/falling90/RCNN/blob/main/Reference/Image/1.png" width="1000px" height="300px"></img><br/>  
 
+
+  2) Process  
+<img src="https://github.com/falling90/RCNN/blob/main/Reference/Image/2.png" width="1000px" height="300px"></img><br/>  
+
+  3) 세부 내용  
+    3-1) Input Image  
+
+    -. Data : Image  
+    -. Label : Bounding Box   
 
 >**R-CNN Algorithms**
 
