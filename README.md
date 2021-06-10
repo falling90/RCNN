@@ -1,4 +1,9 @@
-## R-CNN
+# R-CNN  
+ ## 1. R-CNN 정의  
+   -. 약자 : Regions with Convolutional Neuron Networks  
+   -. 정의 : 영역을 설정하고 CNNS을 활용하여 물체 인식(Object Detection)을 수행하는 신경망  
+   
+   
 >**R-CNN Algorithms**
 
     1. Segmentation을 통해 초기 Region 생성(유사한 색상으로 매칭)
